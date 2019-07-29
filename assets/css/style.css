@@ -154,8 +154,8 @@ a {
     vertical-align: middle;
     padding-top: 15px;
     background-color: #FF584F;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .fee-body {
@@ -167,8 +167,8 @@ a {
     background-color: #ffffff;
     text-align: center;
     vertical-align: middle;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .doitac-card {

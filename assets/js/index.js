@@ -63,6 +63,16 @@ function gotoURL(s) {
     }
 }
 
+function scrollToId(id) {
+    $('html, body').animate({
+        scrollTop: $(`#${id}`).offset().top
+    }, 1000)
+}
+
+$('.tim-hieu-them').click(() => {
+    scrollToId('carplus_about');
+});
+
 $('.navbar-brand').click(() => {
     window.location.href = 'index.html';
 });
@@ -88,9 +98,3 @@ $('.tai-xuong-app').click(() => {
 });
 
 $('.carousel').carousel();
-
-function scrollToId(id) {
-    $('html, body').animate({
-        scrollTop: $(`#${id}`).offset().top
-    }, 1000)
-}

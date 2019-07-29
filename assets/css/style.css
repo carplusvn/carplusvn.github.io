@@ -259,7 +259,44 @@ a {
     max-width: 75%!important;
 }
 
+.images-banner-body {
+    width: 100%;
+}
+
+.text-banner-body {
+    width: 100%;
+    padding-left: 10vh;
+    text-align: left;
+}
+
+.text-content-banner-body {
+    margin-top: calc(50vh - 200px);
+    max-width: 100%;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #FF584F;
+    text-align: left;
+}
+
+.button-content-banner-body {
+    text-align: left;
+}
+
 @media screen and (max-width: 768px) {
+    .carousel-indicators {
+        padding-top: 100px;
+    }
+    .text-banner-body {
+        padding-left: 0px;
+        text-align: left;
+    }
+    .text-content-banner-body {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .button-content-banner-body {
+        text-align: center;
+    }
     .max-by-khang {
         max-width: 100%!important;
     }
@@ -275,7 +312,7 @@ a {
         margin-bottom: 50px;
     }
     .max-100cp {
-        height: inherit;
+        height: calc(100vh - 70px);
     }
     .carplus_div {
         text-align: center;
